@@ -1,0 +1,89 @@
+﻿@model IEnumerable<ASPTest.Models.Ent_Enterprise>
+
+@{
+    ViewBag.Title = "Enterprise";
+     WebGrid webGrid = new WebGrid(source: Model);
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewAllEnterprise</title>
+</head>
+<body>
+    <h4>Enterprise </h4>
+    <p>
+        @Html.ActionLink("Create New", "Enterprise", "Enterprise")
+    </p>
+    @*<table class="table">
+        <tr>
+
+            <th>Enterprise Name </th>
+            <th>Organization Type</th>
+            <th> Owner Name</th>
+            <th>Enterprise Address</th>
+            <th> Phone </th>
+            <th> Pay To Address</th>
+            <th>Tax Id </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Enterprise_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrganizationType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OwnerName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EnterpriseAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PayToAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tax_Id)
+                </td>
+                <td>
+                    @Html.HiddenFor(modelItem => item.Enterprise_ID)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Enterprise", new { id = item.Enterprise_ID }) |
+                    @Html.ActionLink("Delete", "Enterprise", new { id = item.Enterprise_ID })
+                </td>
+            </tr>
+        }
+
+    </table>*@
+
+    <div class="row form-group">
+            @webGrid.GetHtml(
+          tableStyle: "table  table-striped table-bordered ",
+          htmlAttributes: new { @id = "WebGrid", @class = "Grid" },
+
+          columns: webGrid.Columns(
+                webGrid.Column(header: "Enterprise Name", format: @<span><span class="label">@item.Enterprise_Name</span></span>, style: "Enterprise_Name"),
+                webGrid.Column(header: "Organization Type", format: @<span><span class="label">@item.OrganizationType</span></span>, style: "OrganizationType"),
+                webGrid.Column(header: "Owner Name", format: @<span><span class="label">@item.OwnerName</span></span>, style: "OwnerName"),
+                webGrid.Column(header: "Enterprise Address", format: @<span><span class="label">@item.EnterpriseAddress</span></span>, style: "EnterpriseAddress"),
+                webGrid.Column(header: "Phone", format: @<span><span class="label">@item.Phone</span></span>, style: "Phone"),
+                webGrid.Column(header: "Pay To Address", format: @<span><span class="label">@item.PayToAddress</span></span>, style: "PayToAddress"),
+                webGrid.Column(header: "Tax Id", format: @<span><span class="label">@item.Tax_Id</span></span>, style: "Tax_Id"),
+                webGrid.Column(format:@<span class="link">
+                    @Html.ActionLink("Edit", "Enterprise", new { id = item.Enterprise_ID }) |
+                    @Html.ActionLink("Delete", "DeleteEnterprise", new { id = item.Enterprise_ID })
+            </span>)))
+        </div>
+</body>
+</html>

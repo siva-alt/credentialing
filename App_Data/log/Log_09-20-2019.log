@@ -1,0 +1,384 @@
+01:11:36 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:11:36 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+
+Exception Log Entry : 01:11:36 PM Friday, September 20, 2019
+ Error :Invalid object name 'dbo.Login'.
+ Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1051
+   at Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1079
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 721
+   at ASPTest.Models.DapperORM.ExecuteQuaryResult[T](String Quary, DynamicParameters parm) in F:\Test\ASPTest\Models\DapperORM.cs:line 33
+   at ASPTest.BLL.LoginBLL.login(Ent_Login login) in F:\Test\ASPTest\BLL\LoginBLL.cs:line 24
+-------------------------------
+01:11:43 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:11:43 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+
+Exception Log Entry : 01:11:43 PM Friday, September 20, 2019
+ Error :Invalid object name 'dbo.Login'.
+ Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1051
+   at Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1079
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 721
+   at ASPTest.Models.DapperORM.ExecuteQuaryResult[T](String Quary, DynamicParameters parm) in F:\Test\ASPTest\Models\DapperORM.cs:line 33
+   at ASPTest.BLL.LoginBLL.login(Ent_Login login) in F:\Test\ASPTest\BLL\LoginBLL.cs:line 24
+-------------------------------
+01:12:01 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:12:01 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+
+Exception Log Entry : 01:12:01 PM Friday, September 20, 2019
+ Error :Invalid object name 'dbo.Login'.
+ Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1051
+   at Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1079
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 721
+   at ASPTest.Models.DapperORM.ExecuteQuaryResult[T](String Quary, DynamicParameters parm) in F:\Test\ASPTest\Models\DapperORM.cs:line 33
+   at ASPTest.BLL.LoginBLL.login(Ent_Login login) in F:\Test\ASPTest\BLL\LoginBLL.cs:line 24
+-------------------------------
+01:12:15 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:12:15 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+
+Exception Log Entry : 01:12:15 PM Friday, September 20, 2019
+ Error :Invalid object name 'dbo.Login'.
+ Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1051
+   at Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1079
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 721
+   at ASPTest.Models.DapperORM.ExecuteQuaryResult[T](String Quary, DynamicParameters parm) in F:\Test\ASPTest\Models\DapperORM.cs:line 33
+   at ASPTest.BLL.LoginBLL.login(Ent_Login login) in F:\Test\ASPTest\BLL\LoginBLL.cs:line 24
+-------------------------------
+01:40:17 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:40:17 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+01:40:17 PM Friday, September 20, 2019
+Quary executed with out error
+01:41:34 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:41:35 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+01:41:38 PM Friday, September 20, 2019
+Quary executed with out error
+04:12:04 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+04:12:04 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+04:12:04 PM Friday, September 20, 2019
+Quary executed with out error
+04:52:31 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+04:52:31 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+04:52:31 PM Friday, September 20, 2019
+Quary executed with out error
+05:05:50 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+05:05:50 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+05:05:50 PM Friday, September 20, 2019
+Quary executed with out error
+05:09:53 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+05:09:53 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+05:09:53 PM Friday, September 20, 2019
+Quary executed with out error
+05:28:26 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+05:28:26 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+05:28:26 PM Friday, September 20, 2019
+Quary executed with out error
+05:29:10 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+05:29:10 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+05:30:04 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+05:30:04 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+05:33:18 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+05:33:18 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+05:33:18 PM Friday, September 20, 2019
+Quary executed with out error
+06:15:17 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+06:15:17 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+06:15:17 PM Friday, September 20, 2019
+Quary executed with out error
+06:20:40 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+06:20:40 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+06:20:40 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+06:22:39 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+06:22:42 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+06:22:53 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+06:28:05 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+06:28:05 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+06:28:05 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+06:31:41 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+06:31:41 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+06:31:41 PM Friday, September 20, 2019
+Quary executed with out error
+06:32:26 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+06:32:26 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+06:32:26 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+06:38:28 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+06:38:28 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+06:38:29 PM Friday, September 20, 2019
+Quary executed with out error
+06:47:43 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+06:47:43 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+06:47:43 PM Friday, September 20, 2019
+Quary executed with out error
+07:01:17 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:01:17 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:01:17 PM Friday, September 20, 2019
+Quary executed with out error
+07:10:04 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:10:04 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:10:04 PM Friday, September 20, 2019
+Quary executed with out error
+07:11:52 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:11:52 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:11:52 PM Friday, September 20, 2019
+Quary executed with out error
+07:13:31 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:13:31 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:13:31 PM Friday, September 20, 2019
+Quary executed with out error
+07:15:28 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:15:28 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:15:28 PM Friday, September 20, 2019
+Quary executed with out error
+07:15:56 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+07:15:56 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+07:15:56 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+07:17:16 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:17:16 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:17:16 PM Friday, September 20, 2019
+Quary executed with out error
+07:17:57 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+07:17:57 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+07:17:57 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+07:20:34 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:20:34 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:20:34 PM Friday, September 20, 2019
+Quary executed with out error
+07:23:30 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:23:30 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:23:30 PM Friday, September 20, 2019
+Quary executed with out error
+07:25:26 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:25:26 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:25:26 PM Friday, September 20, 2019
+Quary executed with out error
+07:32:10 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:32:10 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:32:10 PM Friday, September 20, 2019
+Quary executed with out error
+07:47:06 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+07:47:06 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+07:47:06 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+07:47:48 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+07:47:48 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+07:47:48 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+08:09:02 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+08:09:02 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+08:09:02 PM Friday, September 20, 2019
+Quary executed with out error
+08:14:24 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+08:14:24 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+08:14:24 PM Friday, September 20, 2019
+Quary executed with out error
+08:15:19 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+08:15:19 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+08:15:19 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+08:41:42 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+08:41:42 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+08:41:42 PM Friday, September 20, 2019
+Quary executed with out error
+08:42:11 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+08:42:11 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+08:42:11 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+08:49:44 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+08:49:44 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+08:49:44 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+08:51:34 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+08:51:34 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+08:51:34 PM Friday, September 20, 2019
+Quary executed with out error
+08:51:44 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+08:51:44 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+08:51:44 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+08:52:41 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+08:52:41 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+08:52:41 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+08:57:48 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+08:57:48 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+08:57:48 PM Friday, September 20, 2019
+Quary executed with out error
+08:58:21 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+08:58:21 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+08:58:21 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+09:02:39 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+09:02:39 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+09:02:39 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+09:23:38 PM Friday, September 20, 2019
+ public Ent_Login login(Ent_Login login) entry
+09:23:38 PM Friday, September 20, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+09:23:38 PM Friday, September 20, 2019
+Quary executed with out error
+09:23:47 PM Friday, September 20, 2019
+ public int AddDepartment(Department dep) Method entry
+09:23:47 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+09:23:47 PM Friday, September 20, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database

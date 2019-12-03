@@ -1,0 +1,206 @@
+﻿@model IEnumerable<ASPTest.Models.Ent_Facility>
+
+@{
+    ViewBag.Title = "Facility";
+    WebGrid webGrid = new WebGrid(source: Model);
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewAllFacility</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Facility")
+    </p>
+    @*<table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Facility_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Company_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Facility_Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Facility_Type)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NPI)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Taxonomy_Speciality)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Taxonomy_Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Sequence_Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Reference_Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address2)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.City)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.State)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Zip_Code)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Phone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fax)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tax_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Claim_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Location_Provider_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Site_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Locater_Code)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Place_of_Service)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ModifiedBy)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ModifiedByDate)
+                </th>
+                <th></th>
+            </tr>
+
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Facility_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Company_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Facility_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Facility_Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NPI)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Taxonomy_Speciality)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Taxonomy_Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sequence_Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Reference_Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address2)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.State)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Zip_Code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fax)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tax_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Claim_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Location_Provider_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Site_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Locater_Code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Place_of_Service)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedBy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedByDate)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+
+        </table>*@
+
+
+    <div class="row form-group">
+        @webGrid.GetHtml(
+      tableStyle: "table  table-striped table-bordered ",
+      htmlAttributes: new { @id = "WebGrid", @class = "Grid" },
+
+      columns: webGrid.Columns(
+            webGrid.Column(header: "Facility Name", format: @<span><span class="label">@item.Facility_Name</span></span>, style: "Facility_Name"),
+        webGrid.Column(header: "Facility Type", format: @<span><span class="label">@item.FacilityType</span></span>, style: "FacilityType"),
+
+        webGrid.Column(header: "Facility Address", format: @<span><span class="label">@item.FacilityAddress</span></span>, style: "FacilityAddress"),
+        webGrid.Column(header: "Phone", format: @<span><span class="label">@item.Phone</span></span>, style: "Phone"),
+        webGrid.Column(header: "NPI", format: @<span><span class="label">@item.NPI</span></span>, style: "PayToAddress"),
+        webGrid.Column(header: "Tax Id", format: @<span><span class="label">@item.Tax_Id</span></span>, style: "Tax_Id"),
+        webGrid.Column(format:@<span class="link">
+        @Html.ActionLink("Edit", "Facility", new { id = item.Facility_ID }) |
+        @Html.ActionLink("Delete", "DeleteFacility", new { id = item.Facility_ID })
+    </span>)))
+    </div>
+</body>
+</html>

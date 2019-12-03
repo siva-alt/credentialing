@@ -1,0 +1,204 @@
+﻿@model IEnumerable<ASPTest.Models.Ent_Payer>
+
+@{
+     ViewBag.Title = "Payer";
+     WebGrid webGrid = new WebGrid(source: Model);
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewAllPayer</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Payer","Payer")
+    </p>
+    @*<table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Payer_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Payer_Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Payer_Sub_Group_Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Payer_Type)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address2)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.City)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.State)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Zip_Code)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Phone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fax)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.WebSite)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Contact_Person_Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Contact_Person_Designation)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Mobile_Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Desk_Extn)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Group_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Claim_Office_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Payer_Medigap_Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Others)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Attach_Forms_Type)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ModifiedBy)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ModifiedByDate)
+                </th>
+                <th></th>
+            </tr>
+
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Payer_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Payer_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Payer_Sub_Group_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Payer_Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address2)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.State)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Zip_Code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fax)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.WebSite)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Contact_Person_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Contact_Person_Designation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mobile_Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Desk_Extn)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Group_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Claim_Office_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Payer_Medigap_Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Others)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Attach_Forms_Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedBy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedByDate)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+
+        </table>*@
+    <div class="row form-group">
+        @webGrid.GetHtml(
+      tableStyle: "table  table-striped table-bordered ",
+      htmlAttributes: new { @id = "WebGrid", @class = "Grid" },
+
+      columns: webGrid.Columns(
+            webGrid.Column(header: "Payer Name", format: @<span><span class="label">@item.Payer_Name</span></span>, style: "Enterprise_Name"),
+        webGrid.Column(header: "Payer Sub Group Name", format: @<span><span class="label">@item.Payer_Sub_Group_Name</span></span>, style: "OrganizationType"),
+        webGrid.Column(header: "Payer Type", format: @<span><span class="label">@item.Payer_Type</span></span>, style: "OwnerName"),
+        webGrid.Column(header: "Payer Address", format: @<span><span class="label">@item.PayerAddress</span></span>, style: "EnterpriseAddress"),
+        webGrid.Column(header: "Phone", format: @<span><span class="label">@item.Phone</span></span>, style: "Phone"),
+        webGrid.Column(header: "Payer Status", format: @<span><span class="label">@item.PayerStatus</span></span>, style: "Tax_Id"),
+        webGrid.Column(format:@<span class="link">
+              @Html.ActionLink("Edit", "Payer", new { id = item.Payer_ID }) |
+             @Html.ActionLink("Delete", "DeletePayer", new { id = item.Payer_ID })
+</span>)))
+    </div>
+
+</body>
+</html>

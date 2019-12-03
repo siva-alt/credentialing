@@ -1,0 +1,102 @@
+12:55:55 PM Saturday, September 21, 2019
+ public Ent_Login login(Ent_Login login) entry
+12:55:55 PM Saturday, September 21, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+12:55:55 PM Saturday, September 21, 2019
+Quary executed with out error
+01:53:03 PM Saturday, September 21, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:53:03 PM Saturday, September 21, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+01:53:03 PM Saturday, September 21, 2019
+Quary executed with out error
+02:01:42 PM Saturday, September 21, 2019
+ public Ent_Login login(Ent_Login login) entry
+02:01:42 PM Saturday, September 21, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+02:01:42 PM Saturday, September 21, 2019
+Quary executed with out error
+02:02:45 PM Saturday, September 21, 2019
+ public int AddDepartment(Department dep) Method entry
+02:02:45 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+02:02:45 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+02:04:59 PM Saturday, September 21, 2019
+ public int AddDepartment(Department dep) Method entry
+02:04:59 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+02:04:59 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+02:06:30 PM Saturday, September 21, 2019
+ public int AddDepartment(Department dep) Method entry
+02:06:30 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+02:06:30 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+02:07:35 PM Saturday, September 21, 2019
+ public int AddDepartment(Department dep) Method entry
+02:07:35 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+02:07:35 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+02:08:41 PM Saturday, September 21, 2019
+ public int AddDepartment(Department dep) Method entry
+02:08:41 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+02:08:41 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+02:10:41 PM Saturday, September 21, 2019
+ public int AddDepartment(Department dep) Method entry
+02:10:41 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+02:10:41 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+02:11:10 PM Saturday, September 21, 2019
+ public int AddDepartment(Department dep) Method entry
+02:11:10 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+02:11:10 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+02:13:15 PM Saturday, September 21, 2019
+ public int AddDepartment(Department dep) Method entry
+02:13:15 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+02:13:15 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+03:10:56 PM Saturday, September 21, 2019
+ public Ent_Login login(Ent_Login login) entry
+03:10:56 PM Saturday, September 21, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+03:10:56 PM Saturday, September 21, 2019
+Quary executed with out error
+03:11:13 PM Saturday, September 21, 2019
+ public int AddDepartment(Department dep) Method entry
+03:11:13 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+03:11:13 PM Saturday, September 21, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+04:00:56 PM Saturday, September 21, 2019
+ public Ent_Login login(Ent_Login login) entry
+04:00:56 PM Saturday, September 21, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+04:00:56 PM Saturday, September 21, 2019
+Quary executed with out error
+04:10:39 PM Saturday, September 21, 2019
+ public Ent_Login login(Ent_Login login) entry
+04:10:39 PM Saturday, September 21, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+04:10:39 PM Saturday, September 21, 2019
+Quary executed with out error
+04:11:42 PM Saturday, September 21, 2019
+ public Ent_Login login(Ent_Login login) entry
+04:11:42 PM Saturday, September 21, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+04:11:42 PM Saturday, September 21, 2019
+Quary executed with out error
+04:54:40 PM Saturday, September 21, 2019
+ public Ent_Login login(Ent_Login login) entry
+04:54:41 PM Saturday, September 21, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+04:54:42 PM Saturday, September 21, 2019
+Quary executed with out error

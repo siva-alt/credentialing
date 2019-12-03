@@ -1,0 +1,296 @@
+﻿@model IEnumerable<ASPTest.Models.Ent_Provider>
+
+@{
+    ViewBag.Title = "Provider";
+     WebGrid webGrid = new WebGrid(source: Model);
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewAllProvider</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Provider")
+    </p>
+    @*<table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Provider_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Facility_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Atom_Provider_Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Provider_Last_Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Provider_First_Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Provider_Middle_Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Provider_Category)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Working_Type)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NPI)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Speciality)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Home_Phone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cell_Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fax_Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Specialty_License_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.State_License_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Anesthesia_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UPIN_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Blue_Cross_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Champus_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address2)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.City)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.State)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Zip_Code)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Country)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Birth_Place)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date_Of_Birth)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.On_Board_Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Relieving_Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.State_License_Effective_Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DEA_Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DEA_Effective_Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CAQH_ID_Number)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Professional_Experience)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Others)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PECO)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ModifiedBy)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ModifiedByDate)
+                </th>
+                <th></th>
+            </tr>
+
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Provider_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Facility_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Atom_Provider_Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Provider_Last_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Provider_First_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Provider_Middle_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Provider_Category)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Working_Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NPI)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Speciality)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Home_Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cell_Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fax_Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Specialty_License_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.State_License_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Anesthesia_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UPIN_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Blue_Cross_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Champus_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address2)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.State)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Zip_Code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Birth_Place)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date_Of_Birth)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.On_Board_Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Relieving_Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.State_License_Effective_Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DEA_Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DEA_Effective_Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CAQH_ID_Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Professional_Experience)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Others)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PECO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedBy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedByDate)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+
+        </table>*@
+<div class="row form-group">
+    @webGrid.GetHtml(
+  tableStyle: "table  table-striped table-bordered ",
+  htmlAttributes: new { @id = "WebGrid", @class = "Grid" },
+
+  columns: webGrid.Columns(
+        webGrid.Column(header: "Provider Name", format: @<span><span class="label">@item.ProvideName</span></span>, style: "Facility_Name"),
+webGrid.Column(header: "Provider Category", format: @<span><span class="label">@item.ProviderCategory</span></span>, style: "FacilityType"),
+
+webGrid.Column(header: "Provider Address", format: @<span><span class="label">@item.ProviderAddress</span></span>, style: "FacilityAddress"),
+webGrid.Column(header: "Phone", format: @<span><span class="label">@item.Home_Phone</span></span>, style: "Phone"),
+
+webGrid.Column(header: "National Provider Identifier", format: @<span><span class="label">@item.NPI</span></span>, style: "Tax_Id"),
+webGrid.Column(header: "Provider Status", format: @<span><span class="label">@item.ProviderStatus</span></span>, style: "PayToAddress"),
+webGrid.Column(format:@<span class="link">
+    @Html.ActionLink("Edit", "Provider", new { id = item.Provider_ID }) |
+    @Html.ActionLink("Delete", "DeleteProvider", new { id = item.Provider_ID })
+</span>)))
+</div>
+
+</body>
+</html>

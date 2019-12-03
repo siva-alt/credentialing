@@ -1,0 +1,54 @@
+Thursday, September 26, 2019
+ public Ent_Login login(Ent_Login login) entry
+Thursday, September 26, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Thursday, September 26, 2019
+Quary executed with out error
+Thursday, September 26, 2019
+ public int UpdateDepartment(Department dep) Method entry
+Thursday, September 26, 2019
+UPDATE Department SET DepartmentName=@DepartmentName,Status=@Status,LastModifiedBy=@LastModifiedBy,LastModifiedDate=@LastModifiedDate WHERE ID=@Department_ID Quary Issued to database
+Thursday, September 26, 2019
+UPDATE Department SET DepartmentName=@DepartmentName,Status=@Status,LastModifiedBy=@LastModifiedBy,LastModifiedDate=@LastModifiedDate WHERE ID=@Department_ID Quary Executed withoyut Issue to database
+Thursday, September 26, 2019
+ public int AddDepartment(Department dep) Method entry
+Thursday, September 26, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+Thursday, September 26, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+Thursday, September 26, 2019
+ public Ent_Login login(Ent_Login login) entry
+Thursday, September 26, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Thursday, September 26, 2019
+Quary executed with out error
+Thursday, September 26, 2019
+ public int UpdateDepartment(Department dep) Method entry
+Thursday, September 26, 2019
+UPDATE Department SET DepartmentName=@DepartmentName,Status=@Status,LastModifiedBy=@LastModifiedBy,LastModifiedDate=@LastModifiedDate WHERE ID=@Department_ID Quary Issued to database
+Thursday, September 26, 2019
+UPDATE Department SET DepartmentName=@DepartmentName,Status=@Status,LastModifiedBy=@LastModifiedBy,LastModifiedDate=@LastModifiedDate WHERE ID=@Department_ID Quary Executed withoyut Issue to database
+Thursday, September 26, 2019
+ public Ent_Login login(Ent_Login login) entry
+Thursday, September 26, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Thursday, September 26, 2019
+Quary executed with out error
+Thursday, September 26, 2019
+ public int AddDepartment(Department dep) Method entry
+Thursday, September 26, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+Thursday, September 26, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+Thursday, September 26, 2019
+ public int AddDepartment(Department dep) Method entry
+Thursday, September 26, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Issued to database
+Thursday, September 26, 2019
+INSERT INTO Department(DepartmentName,Status,LastModifiedBy,LastModifiedDate) VALUES (@DepartmentName,@Status,@LastModifiedBy,@LastModifiedDate) Quary Executed withoyut Issue to database
+Thursday, September 26, 2019
+ public Ent_Login login(Ent_Login login) entry
+Thursday, September 26, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Thursday, September 26, 2019
+Quary executed with out error

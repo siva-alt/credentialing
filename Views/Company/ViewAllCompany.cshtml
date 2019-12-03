@@ -1,0 +1,211 @@
+﻿@model IEnumerable<ASPTest.Models.Ent_Company>
+
+@{
+    ViewBag.Title = "Enterprise";
+     WebGrid webGrid = new WebGrid(source: Model);
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewAllCompany</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Company")
+    </p>
+    @*<table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Company_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Enterprise_ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Company_Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Organization_Type)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Taxonomy_Speciality)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address2)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.City)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.State)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Zip_Code)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.County)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Phone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fax)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Website)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Payto_Address)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Payto_City)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Payto_State)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Payto_Zip_code)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tax_Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NPI)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ModifiedBy)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ModifiedByDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.OrganizationType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CompanyAddress)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PayToAddress)
+                </th>
+                <th></th>
+            </tr>
+
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Company_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Enterprise_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Company_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Organization_Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Taxonomy_Speciality)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address2)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.State)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Zip_Code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.County)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fax)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Website)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Payto_Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Payto_City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Payto_State)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Payto_Zip_code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tax_Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NPI)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedBy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedByDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrganizationType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CompanyAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PayToAddress)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+
+        </table>*@
+
+    <div class="row form-group">
+        @webGrid.GetHtml(
+      tableStyle: "table  table-striped table-bordered ",
+      htmlAttributes: new { @id = "WebGrid", @class = "Grid" },
+
+      columns: webGrid.Columns(
+            webGrid.Column(header: "Comapny Name", format: @<span><span class="label">@item.Company_Name</span></span>, style: "Enterprise_Name"),
+            webGrid.Column(header: "Organization Type", format: @<span><span class="label">@item.OrganizationType</span></span>, style: "OrganizationType"),
+          
+            webGrid.Column(header: "Comapany Address", format: @<span><span class="label">@item.CompanyAddress</span></span>, style: "EnterpriseAddress"),
+            webGrid.Column(header: "Phone", format: @<span><span class="label">@item.Phone</span></span>, style: "Phone"),
+            webGrid.Column(header: "Pay To Address", format: @<span><span class="label">@item.PayToAddress</span></span>, style: "PayToAddress"),
+            webGrid.Column(header: "Tax Id", format: @<span><span class="label">@item.Tax_Id</span></span>, style: "Tax_Id"),
+            webGrid.Column(format:@<span class="link">
+        @Html.ActionLink("Edit", "Company", new { id = item.Company_ID }) |
+         @Html.ActionLink("Delete", "DeleteCompany", new { id = item.Company_ID })
+        </span>)))
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+01:18:13 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:18:13 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+01:18:14 PM Monday, September 23, 2019
+Quary executed with out error
+01:30:15 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:30:16 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+01:30:20 PM Monday, September 23, 2019
+Quary executed with out error
+01:35:58 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:35:58 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+01:35:58 PM Monday, September 23, 2019
+Quary executed with out error
+01:47:07 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:47:07 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+01:47:07 PM Monday, September 23, 2019
+Quary executed with out error
+01:54:28 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+01:54:28 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+01:54:28 PM Monday, September 23, 2019
+Quary executed with out error
+05:31:34 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+05:31:34 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+05:31:34 PM Monday, September 23, 2019
+Quary executed with out error
+05:58:37 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+05:58:37 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+05:58:37 PM Monday, September 23, 2019
+Quary executed with out error
+07:33:13 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:33:13 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:33:13 PM Monday, September 23, 2019
+Quary executed with out error
+07:52:43 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:52:43 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:52:43 PM Monday, September 23, 2019
+Quary executed with out error
+07:58:45 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:58:45 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:58:45 PM Monday, September 23, 2019
+Quary executed with out error
+08:03:36 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+08:03:36 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+08:03:36 PM Monday, September 23, 2019
+Quary executed with out error
+08:18:30 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+08:18:30 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+08:18:30 PM Monday, September 23, 2019
+Quary executed with out error
+08:22:59 PM Monday, September 23, 2019
+ public Ent_Login login(Ent_Login login) entry
+08:22:59 PM Monday, September 23, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+08:22:59 PM Monday, September 23, 2019
+Quary executed with out error
+08:23:34 PM Monday, September 23, 2019
+ public int UpdateDepartment(Department dep) Method entry
+08:23:43 PM Monday, September 23, 2019
+UPDATE Department SET DepartmentName=@DepartmentName,Status=@Status,LastModifiedBy=@LastModifiedBy,LastModifiedDate=@LastModifiedDate WHERE ID=@Department_ID Quary Issued to database
+08:23:48 PM Monday, September 23, 2019
+UPDATE Department SET DepartmentName=@DepartmentName,Status=@Status,LastModifiedBy=@LastModifiedBy,LastModifiedDate=@LastModifiedDate WHERE ID=@Department_ID Quary Executed withoyut Issue to database

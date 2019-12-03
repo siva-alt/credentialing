@@ -1,0 +1,197 @@
+08:59:52 PM Thursday, September 19, 2019
+---------------------------------------------------------
+08:59:52 PM Thursday, September 19, 2019
+ public void ImportExcelFile(ImportExcel importExcel,string path) method entry
+09:00:00 PM Thursday, September 19, 2019
+ ----------------- Writing excel values into database -----------------
+
+Exception Log Entry : 09:00:00 PM Thursday, September 19, 2019
+ Error :Cannot access destination table 'ar_import'.
+ Stack Trace :   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestAsync(CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalAsync(CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServerAsync(Int32 columnCount, CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DbDataReader reader)
+   at ASPTest.BLL.ImportExcelBLL.ImportExcelFile(ImportExcel importExcel, String path) in F:\Test\ASPTest\BLL\ImportExcelBLL.cs:line 65
+-------------------------------
+09:01:18 PM Thursday, September 19, 2019
+ public Ent_Login login(Ent_Login login) entry
+09:01:18 PM Thursday, September 19, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+09:01:18 PM Thursday, September 19, 2019
+Quary executed with out error
+09:01:36 PM Thursday, September 19, 2019
+---------------------------------------------------------
+09:01:36 PM Thursday, September 19, 2019
+ public void ImportExcelFile(ImportExcel importExcel,string path) method entry
+09:01:45 PM Thursday, September 19, 2019
+ ----------------- Writing excel values into database -----------------
+
+Exception Log Entry : 09:02:01 PM Thursday, September 19, 2019
+ Error :Column 'LastPaymentDate' does not allow DBNull.Value.
+ Stack Trace :   at System.Data.SqlClient.SqlBulkCopy.ConvertValue(Object value, _SqlMetaData metadata, Boolean isNull, Boolean& isSqlType, Boolean& coercedToDataFeed)
+   at System.Data.SqlClient.SqlBulkCopy.ReadWriteColumnValueAsync(Int32 col)
+   at System.Data.SqlClient.SqlBulkCopy.CopyColumnsAsync(Int32 col, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyRowsAsync(Int32 rowsSoFar, Int32 totalRows, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsyncContinued(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsync(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestContinuedAsync(BulkCopySimpleResultSet internalResults, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestAsync(CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalAsync(CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServerAsync(Int32 columnCount, CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DbDataReader reader)
+   at ASPTest.BLL.ImportExcelBLL.ImportExcelFile(ImportExcel importExcel, String path) in F:\Test\ASPTest\BLL\ImportExcelBLL.cs:line 65
+-------------------------------
+09:05:41 PM Thursday, September 19, 2019
+ public Ent_Login login(Ent_Login login) entry
+09:05:41 PM Thursday, September 19, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+09:05:41 PM Thursday, September 19, 2019
+Quary executed with out error
+09:06:02 PM Thursday, September 19, 2019
+---------------------------------------------------------
+09:06:03 PM Thursday, September 19, 2019
+ public void ImportExcelFile(ImportExcel importExcel,string path) method entry
+09:06:40 PM Thursday, September 19, 2019
+ ----------------- Writing excel values into database -----------------
+
+Exception Log Entry : 09:16:23 PM Thursday, September 19, 2019
+ Error :Column 'LastPaymentDate' does not allow DBNull.Value.
+ Stack Trace :   at System.Data.SqlClient.SqlBulkCopy.ConvertValue(Object value, _SqlMetaData metadata, Boolean isNull, Boolean& isSqlType, Boolean& coercedToDataFeed)
+   at System.Data.SqlClient.SqlBulkCopy.ReadWriteColumnValueAsync(Int32 col)
+   at System.Data.SqlClient.SqlBulkCopy.CopyColumnsAsync(Int32 col, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyRowsAsync(Int32 rowsSoFar, Int32 totalRows, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsyncContinued(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsync(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestContinuedAsync(BulkCopySimpleResultSet internalResults, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestAsync(CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalAsync(CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServerAsync(Int32 columnCount, CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DbDataReader reader)
+   at ASPTest.BLL.ImportExcelBLL.ImportExcelFile(ImportExcel importExcel, String path) in F:\Test\ASPTest\BLL\ImportExcelBLL.cs:line 65
+-------------------------------
+09:17:28 PM Thursday, September 19, 2019
+ public Ent_Login login(Ent_Login login) entry
+09:17:28 PM Thursday, September 19, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+09:17:28 PM Thursday, September 19, 2019
+Quary executed with out error
+09:17:47 PM Thursday, September 19, 2019
+---------------------------------------------------------
+09:17:47 PM Thursday, September 19, 2019
+ public void ImportExcelFile(ImportExcel importExcel,string path) method entry
+09:17:51 PM Thursday, September 19, 2019
+ ----------------- Writing excel values into database -----------------
+
+Exception Log Entry : 09:18:04 PM Thursday, September 19, 2019
+ Error :Column 'PatientMI' does not allow DBNull.Value.
+ Stack Trace :   at System.Data.SqlClient.SqlBulkCopy.ConvertValue(Object value, _SqlMetaData metadata, Boolean isNull, Boolean& isSqlType, Boolean& coercedToDataFeed)
+   at System.Data.SqlClient.SqlBulkCopy.ReadWriteColumnValueAsync(Int32 col)
+   at System.Data.SqlClient.SqlBulkCopy.CopyColumnsAsync(Int32 col, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyRowsAsync(Int32 rowsSoFar, Int32 totalRows, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsyncContinued(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsync(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestContinuedAsync(BulkCopySimpleResultSet internalResults, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestAsync(CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalAsync(CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServerAsync(Int32 columnCount, CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DbDataReader reader)
+   at ASPTest.BLL.ImportExcelBLL.ImportExcelFile(ImportExcel importExcel, String path) in F:\Test\ASPTest\BLL\ImportExcelBLL.cs:line 65
+-------------------------------
+09:28:56 PM Thursday, September 19, 2019
+ public Ent_Login login(Ent_Login login) entry
+09:28:56 PM Thursday, September 19, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+09:28:56 PM Thursday, September 19, 2019
+Quary executed with out error
+09:29:12 PM Thursday, September 19, 2019
+---------------------------------------------------------
+09:29:12 PM Thursday, September 19, 2019
+ public void ImportExcelFile(ImportExcel importExcel,string path) method entry
+09:29:19 PM Thursday, September 19, 2019
+ ----------------- Writing excel values into database -----------------
+
+Exception Log Entry : 09:29:26 PM Thursday, September 19, 2019
+ Error :Column 'PatientMI' does not allow DBNull.Value.
+ Stack Trace :   at System.Data.SqlClient.SqlBulkCopy.ConvertValue(Object value, _SqlMetaData metadata, Boolean isNull, Boolean& isSqlType, Boolean& coercedToDataFeed)
+   at System.Data.SqlClient.SqlBulkCopy.ReadWriteColumnValueAsync(Int32 col)
+   at System.Data.SqlClient.SqlBulkCopy.CopyColumnsAsync(Int32 col, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyRowsAsync(Int32 rowsSoFar, Int32 totalRows, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsyncContinued(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsync(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestContinuedAsync(BulkCopySimpleResultSet internalResults, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestAsync(CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalAsync(CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServerAsync(Int32 columnCount, CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DbDataReader reader)
+   at ASPTest.BLL.ImportExcelBLL.ImportExcelFile(ImportExcel importExcel, String path) in F:\Test\ASPTest\BLL\ImportExcelBLL.cs:line 65
+-------------------------------
+09:36:03 PM Thursday, September 19, 2019
+ public Ent_Login login(Ent_Login login) entry
+09:36:03 PM Thursday, September 19, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+09:36:03 PM Thursday, September 19, 2019
+Quary executed with out error
+09:36:25 PM Thursday, September 19, 2019
+---------------------------------------------------------
+09:36:25 PM Thursday, September 19, 2019
+ public void ImportExcelFile(ImportExcel importExcel,string path) method entry
+09:36:40 PM Thursday, September 19, 2019
+ ----------------- Writing excel values into database -----------------
+
+Exception Log Entry : 09:37:15 PM Thursday, September 19, 2019
+ Error :Column 'PatientMI' does not allow DBNull.Value.
+ Stack Trace :   at System.Data.SqlClient.SqlBulkCopy.ConvertValue(Object value, _SqlMetaData metadata, Boolean isNull, Boolean& isSqlType, Boolean& coercedToDataFeed)
+   at System.Data.SqlClient.SqlBulkCopy.ReadWriteColumnValueAsync(Int32 col)
+   at System.Data.SqlClient.SqlBulkCopy.CopyColumnsAsync(Int32 col, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyRowsAsync(Int32 rowsSoFar, Int32 totalRows, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsyncContinued(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsync(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestContinuedAsync(BulkCopySimpleResultSet internalResults, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestAsync(CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalAsync(CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServerAsync(Int32 columnCount, CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DbDataReader reader)
+   at ASPTest.BLL.ImportExcelBLL.ImportExcelFile(ImportExcel importExcel, String path) in F:\Test\ASPTest\BLL\ImportExcelBLL.cs:line 65
+-------------------------------
+09:40:38 PM Thursday, September 19, 2019
+ public Ent_Login login(Ent_Login login) entry
+09:40:38 PM Thursday, September 19, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+09:40:39 PM Thursday, September 19, 2019
+Quary executed with out error
+09:40:55 PM Thursday, September 19, 2019
+---------------------------------------------------------
+09:40:55 PM Thursday, September 19, 2019
+ public void ImportExcelFile(ImportExcel importExcel,string path) method entry
+09:41:03 PM Thursday, September 19, 2019
+ ----------------- Writing excel values into database -----------------
+
+Exception Log Entry : 09:41:19 PM Thursday, September 19, 2019
+ Error :Column 'PatientMI' does not allow DBNull.Value.
+ Stack Trace :   at System.Data.SqlClient.SqlBulkCopy.ConvertValue(Object value, _SqlMetaData metadata, Boolean isNull, Boolean& isSqlType, Boolean& coercedToDataFeed)
+   at System.Data.SqlClient.SqlBulkCopy.ReadWriteColumnValueAsync(Int32 col)
+   at System.Data.SqlClient.SqlBulkCopy.CopyColumnsAsync(Int32 col, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyRowsAsync(Int32 rowsSoFar, Int32 totalRows, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsyncContinued(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsync(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestContinuedAsync(BulkCopySimpleResultSet internalResults, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestAsync(CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalAsync(CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServerAsync(Int32 columnCount, CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DbDataReader reader)
+   at ASPTest.BLL.ImportExcelBLL.ImportExcelFile(ImportExcel importExcel, String path) in F:\Test\ASPTest\BLL\ImportExcelBLL.cs:line 65
+-------------------------------
+09:42:11 PM Thursday, September 19, 2019
+ public Ent_Login login(Ent_Login login) entry
+09:42:11 PM Thursday, September 19, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+09:42:11 PM Thursday, September 19, 2019
+Quary executed with out error
+09:42:24 PM Thursday, September 19, 2019
+---------------------------------------------------------
+09:42:24 PM Thursday, September 19, 2019
+ public void ImportExcelFile(ImportExcel importExcel,string path) method entry
+09:42:31 PM Thursday, September 19, 2019
+ ----------------- Writing excel values into database -----------------
+09:42:34 PM Thursday, September 19, 2019
+ ----------------- Values inserted into database method exit -----------------

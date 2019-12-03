@@ -1,0 +1,1144 @@
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Enterprise ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllEnterprisePassed to database
+Wednesday, October 2, 2019
+ViewAllEnterprise procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Enterprise Enterprise) method entry
+Wednesday, October 2, 2019
+INSERT INTO [dbo].[Enterprise]
+                    ([Enterprise_Name],[Organization_Type] ,[Owner_Last_Name],[Owner_First_Name],[Title] ,[Taxonomy_Speciality],[Address1],[Address2],[City],[State]
+		            ,[Zip_Code],[County],[Phone],[Fax],[Email] ,[Website],[Payto_Address] ,[Payto_City] ,[Payto_State],[Payto_Zip_code],[Tax_Id])
+                      VALUES
+                    (@Enterprise_Name,@Organization_Type,@Owner_Last_Name,@Owner_First_Name,@Title,@Taxonomy_Speciality,@Address1,@Address2,
+		             @City,@State,@Zip_Code,@County,@Phone,@Fax,@Email,@Website ,@Payto_Address,@Payto_City,@Payto_State,@Payto_Zip_code,@Tax_Id)Passed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Enterprise ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllEnterprisePassed to database
+Wednesday, October 2, 2019
+ViewAllEnterprise procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Company ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllCompanyPassed to database
+Wednesday, October 2, 2019
+ViewAllCompany procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Enterprise ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllEnterprisePassed to database
+Wednesday, October 2, 2019
+ViewAllEnterprise procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+
+Exception Log Entry : 04:06:45 PM Wednesday, October 2, 2019
+ Error :String or binary data would be truncated.
+The statement has been terminated.
+ Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2797
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 568
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 441
+   at ASPTest.Common.AtomORM.ExecuteQuery(String Quary, DynamicParameters parm) in F:\Project\Atom Medical Credentialing\ASPTest\Common\AtomORM.cs:line 41
+   at ASPTest.BLL.FacilityBLL.AddFaclility(Ent_Facility Facility) in F:\Project\Atom Medical Credentialing\ASPTest\BLL\FacilityBLL.cs:line 49
+-------------------------------
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility EditEnterprise(int FacilityId) method entry
+Wednesday, October 2, 2019
+SELECT * FROM dbo.Facility WHERE Facility_ID=@Facility_IDPassed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility EditEnterprise(int FacilityId) method entry
+Wednesday, October 2, 2019
+SELECT * FROM dbo.Facility WHERE Facility_ID=@Facility_IDPassed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoEnterprise(Ent_Facility Facility) method entry
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Facility ViewAllFacility() method entry
+Wednesday, October 2, 2019
+ViewAllFacilityPassed to database
+Wednesday, October 2, 2019
+ViewAllFacility procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoProvider(Ent_Provider Provider) method entry
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoProvider(Ent_Provider Provider) method entry
+
+Exception Log Entry : 06:54:12 PM Wednesday, October 2, 2019
+ Error :Must declare the scalar variable "@DEA_Effective_Date".
+ Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2797
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 568
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 441
+   at ASPTest.Common.AtomORM.ExecuteQuery(String Quary, DynamicParameters parm) in F:\Project\Atom Medical Credentialing\ASPTest\Common\AtomORM.cs:line 41
+   at ASPTest.BLL.ProviderBLL.AddProvider(Ent_Provider Provider) in F:\Project\Atom Medical Credentialing\ASPTest\BLL\ProviderBLL.cs:line 49
+-------------------------------
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoProvider(Ent_Provider Provider) method entry
+
+Exception Log Entry : 06:59:59 PM Wednesday, October 2, 2019
+ Error :Conversion failed when converting the nvarchar value 'gsdfg' to data type int.
+ Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2797
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 568
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 441
+   at ASPTest.Common.AtomORM.ExecuteQuery(String Quary, DynamicParameters parm) in F:\Project\Atom Medical Credentialing\ASPTest\Common\AtomORM.cs:line 41
+   at ASPTest.BLL.ProviderBLL.AddProvider(Ent_Provider Provider) in F:\Project\Atom Medical Credentialing\ASPTest\BLL\ProviderBLL.cs:line 49
+-------------------------------
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoProvider(Ent_Provider Provider) method entry
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider EditProvider(int ProviderId) method entry
+Wednesday, October 2, 2019
+SELECT * FROM dbo.Provider WHERE Provider_ID=@Provider_IDPassed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+public int UpdateProvider(Ent_Provider Provider) method entry
+Wednesday, October 2, 2019
+UPDATE dbo.Provider  SET
+                    Facility_ID=@Facility_ID,Provider_Last_Name=@Provider_Last_Name,Provider_First_Name=@Provider_First_Name,
+                    Provider_Middle_Name=@Provider_Middle_Name,Provider_Category=@Provider_Category,Working_Type=@Working_Type,NPI=@NPI
+                    ,Speciality=@Speciality,Home_Phone=@Home_Phone,Cell_Number=@Cell_Number,Fax_Number=@Fax_Number,Email_ID=@Email_ID
+                    ,Specialty_License_ID=@Specialty_License_ID,State_License_ID=@State_License_ID,Anesthesia_ID=@Anesthesia_ID
+                    ,UPIN_ID=@UPIN_ID,Blue_Cross_ID=@Blue_Cross_ID,Champus_ID=@Champus_ID,Address1=@Address1,Address2=@Address2,City=@City,State=@State
+                    ,Zip_Code=@Zip_Code,Country=@Country,Birth_Place=@Birth_Place,Date_Of_Birth=@Date_Of_Birth,On_Board_Date=@On_Board_Date
+                    ,Relieving_Date=@Relieving_Date,State_License_Effective_Date=@State_License_Effective_Date
+                    ,DEA_Number=@DEA_Number,DEA_Effective_Date=@DEA_Effective_Date,CAQH_ID_Number=@CAQH_ID_Number
+                    ,Professional_Experience=@Professional_Experience,Status=@Status,Others=@Others,PECO=@PECO,
+                    ModifiedBy=@ModifiedBy,ModifiedByDate=@ModifiedByDate;WHERE Provider_ID=@Provider_IDPassed to database
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider EditProvider(int ProviderId) method entry
+Wednesday, October 2, 2019
+SELECT * FROM dbo.Provider WHERE Provider_ID=@Provider_IDPassed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+public int UpdateProvider(Ent_Provider Provider) method entry
+Wednesday, October 2, 2019
+UPDATE dbo.Provider  SET
+                    Facility_ID=@Facility_ID,Provider_Last_Name=@Provider_Last_Name,Provider_First_Name=@Provider_First_Name,
+                    Provider_Middle_Name=@Provider_Middle_Name,Provider_Category=@Provider_Category,Working_Type=@Working_Type,NPI=@NPI
+                    ,Speciality=@Speciality,Home_Phone=@Home_Phone,Cell_Number=@Cell_Number,Fax_Number=@Fax_Number,Email_ID=@Email_ID
+                    ,Specialty_License_ID=@Specialty_License_ID,State_License_ID=@State_License_ID,Anesthesia_ID=@Anesthesia_ID
+                    ,UPIN_ID=@UPIN_ID,Blue_Cross_ID=@Blue_Cross_ID,Champus_ID=@Champus_ID,Address1=@Address1,Address2=@Address2,City=@City,State=@State
+                    ,Zip_Code=@Zip_Code,Country=@Country,Birth_Place=@Birth_Place,Date_Of_Birth=@Date_Of_Birth,On_Board_Date=@On_Board_Date
+                    ,Relieving_Date=@Relieving_Date,State_License_Effective_Date=@State_License_Effective_Date
+                    ,DEA_Number=@DEA_Number,DEA_Effective_Date=@DEA_Effective_Date,CAQH_ID_Number=@CAQH_ID_Number
+                    ,Professional_Experience=@Professional_Experience,Status=@Status,Others=@Others,PECO=@PECO,
+                    ModifiedBy=@ModifiedBy,ModifiedByDate=@ModifiedByDate WHERE Provider_ID=@Provider_IDPassed to database
+
+Exception Log Entry : 07:07:55 PM Wednesday, October 2, 2019
+ Error :Must declare the scalar variable "@Provider_ID".
+ Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2797
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 568
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 441
+   at ASPTest.Common.AtomORM.ExecuteQuery(String Quary, DynamicParameters parm) in F:\Project\Atom Medical Credentialing\ASPTest\Common\AtomORM.cs:line 41
+   at ASPTest.BLL.ProviderBLL.UpdateProvider(Ent_Provider Provider) in F:\Project\Atom Medical Credentialing\ASPTest\BLL\ProviderBLL.cs:line 128
+-------------------------------
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider EditProvider(int ProviderId) method entry
+Wednesday, October 2, 2019
+SELECT * FROM dbo.Provider WHERE Provider_ID=@Provider_IDPassed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+public int UpdateProvider(Ent_Provider Provider) method entry
+Wednesday, October 2, 2019
+UPDATE dbo.Provider  SET
+                    Facility_ID=@Facility_ID,Provider_Last_Name=@Provider_Last_Name,Provider_First_Name=@Provider_First_Name,
+                    Provider_Middle_Name=@Provider_Middle_Name,Provider_Category=@Provider_Category,Working_Type=@Working_Type,NPI=@NPI
+                    ,Speciality=@Speciality,Home_Phone=@Home_Phone,Cell_Number=@Cell_Number,Fax_Number=@Fax_Number,Email_ID=@Email_ID
+                    ,Specialty_License_ID=@Specialty_License_ID,State_License_ID=@State_License_ID,Anesthesia_ID=@Anesthesia_ID
+                    ,UPIN_ID=@UPIN_ID,Blue_Cross_ID=@Blue_Cross_ID,Champus_ID=@Champus_ID,Address1=@Address1,Address2=@Address2,City=@City,State=@State
+                    ,Zip_Code=@Zip_Code,Country=@Country,Birth_Place=@Birth_Place,Date_Of_Birth=@Date_Of_Birth,On_Board_Date=@On_Board_Date
+                    ,Relieving_Date=@Relieving_Date,State_License_Effective_Date=@State_License_Effective_Date
+                    ,DEA_Number=@DEA_Number,DEA_Effective_Date=@DEA_Effective_Date,CAQH_ID_Number=@CAQH_ID_Number
+                    ,Professional_Experience=@Professional_Experience,Status=@Status,Others=@Others,PECO=@PECO,
+                    ModifiedBy=@ModifiedBy,ModifiedByDate=@ModifiedByDate WHERE Provider_ID=@Provider_IDPassed to database
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider EditProvider(int ProviderId) method entry
+Wednesday, October 2, 2019
+SELECT * FROM dbo.Provider WHERE Provider_ID=@Provider_IDPassed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+public int UpdateProvider(Ent_Provider Provider) method entry
+Wednesday, October 2, 2019
+UPDATE dbo.Provider  SET
+                    Facility_ID=@Facility_ID,Provider_Last_Name=@Provider_Last_Name,Provider_First_Name=@Provider_First_Name,
+                    Provider_Middle_Name=@Provider_Middle_Name,Provider_Category=@Provider_Category,Working_Type=@Working_Type,NPI=@NPI
+                    ,Speciality=@Speciality,Home_Phone=@Home_Phone,Cell_Number=@Cell_Number,Fax_Number=@Fax_Number,Email_ID=@Email_ID
+                    ,Specialty_License_ID=@Specialty_License_ID,State_License_ID=@State_License_ID,Anesthesia_ID=@Anesthesia_ID
+                    ,UPIN_ID=@UPIN_ID,Blue_Cross_ID=@Blue_Cross_ID,Champus_ID=@Champus_ID,Address1=@Address1,Address2=@Address2,City=@City,State=@State
+                    ,Zip_Code=@Zip_Code,Country=@Country,Birth_Place=@Birth_Place,Date_Of_Birth=@Date_Of_Birth,On_Board_Date=@On_Board_Date
+                    ,Relieving_Date=@Relieving_Date,State_License_Effective_Date=@State_License_Effective_Date
+                    ,DEA_Number=@DEA_Number,DEA_Effective_Date=@DEA_Effective_Date,CAQH_ID_Number=@CAQH_ID_Number
+                    ,Professional_Experience=@Professional_Experience,Status=@Status,Others=@Others,PECO=@PECO,
+                    ModifiedBy=@ModifiedBy,ModifiedByDate=@ModifiedByDate WHERE Provider_ID=@Provider_IDPassed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public int DeleteProvider(int ProviderId) method entry
+Wednesday, October 2, 2019
+DELETE FROM dbo.Provider WHERE Provider_ID=@Provider_IDPassed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Provider ViewAllProvider() method entry
+Wednesday, October 2, 2019
+ViewAllProviderPassed to database
+Wednesday, October 2, 2019
+ViewAllProvider procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoPayer(Ent_Payer Payer) method entry
+Wednesday, October 2, 2019
+INSERT INTO dbo.Payer(
+                                ,Payer_Name,Payer_Sub_Group_Name,Payer_Type,Address1,Address2,City,State,Zip_Code,Phone,Fax,Email,Contact_Person_Nam,
+                                Contact_Person_Designation,Mobile_Number,Website,Desk_Extn,Group_ID,Claim_Office_ID,
+                                Medigap_Number,Status,Others,Attach_Forms_Type,ModifiedBy,ModifiedByDate) VALUES
+                                (@Payer_Name,@Payer_Sub_Group_Name,@Payer_Type,@Address1,@Address2,@City,@State,@Zip_Code,@Phone,@Fax,@Email
+                                ,@Contact_Person_Name,@Contact_Person_Designation,@Mobile_Number,@Website,@Desk_Extn,@Group_Id,@Claim_Office_ID
+                                ,@Medigap_Number,@Status,@Others,@Attach_Forms_Type,@ModifiedBy,@ModifiedByDate)Passed to database
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoPayer(Ent_Payer Payer) method entry
+Wednesday, October 2, 2019
+INSERT INTO dbo.Payer(
+                                Payer_Name,Payer_Sub_Group_Name,Payer_Type,Address1,Address2,City,State,Zip_Code,Phone,Fax,Email,Contact_Person_Nam,
+                                Contact_Person_Designation,Mobile_Number,Website,Desk_Extn,Group_ID,Claim_Office_ID,
+                                Medigap_Number,Status,Others,Attach_Forms_Type,ModifiedBy,ModifiedByDate) VALUES
+                                (@Payer_Name,@Payer_Sub_Group_Name,@Payer_Type,@Address1,@Address2,@City,@State,@Zip_Code,@Phone,@Fax,@Email
+                                ,@Contact_Person_Name,@Contact_Person_Designation,@Mobile_Number,@Website,@Desk_Extn,@Group_Id,@Claim_Office_ID
+                                ,@Medigap_Number,@Status,@Others,@Attach_Forms_Type,@ModifiedBy,@ModifiedByDate)Passed to database
+
+Exception Log Entry : 09:02:10 PM Wednesday, October 2, 2019
+ Error :Must declare the scalar variable "@Medigap_Number".
+ Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2797
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 568
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 441
+   at ASPTest.Common.AtomORM.ExecuteQuery(String Quary, DynamicParameters parm)
+   at ASPTest.BLL.PayerBLL.AddPayer(Ent_Payer Payer)
+-------------------------------
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoPayer(Ent_Payer Payer) method entry
+Wednesday, October 2, 2019
+INSERT INTO dbo.Payer(
+                                Payer_Name,Payer_Sub_Group_Name,Payer_Type,Address1,Address2,City,State,Zip_Code,Phone,Fax,Email,Contact_Person_Nam,
+                                Contact_Person_Designation,Mobile_Number,Website,Desk_Extn,Group_ID,Claim_Office_ID,
+                                Payer_Medigap_Number,Status,Others,Attach_Forms_Type,ModifiedBy,ModifiedByDate) VALUES
+                                (@Payer_Name,@Payer_Sub_Group_Name,@Payer_Type,@Address1,@Address2,@City,@State,@Zip_Code,@Phone,@Fax,@Email
+                                ,@Contact_Person_Name,@Contact_Person_Designation,@Mobile_Number,@Website,@Desk_Extn,@Group_Id,@Claim_Office_ID
+                                ,@Payer_Medigap_Number,@Status,@Others,@Attach_Forms_Type,@ModifiedBy,@ModifiedByDate)Passed to database
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public int InsertintoPayer(Ent_Payer Payer) method entry
+Wednesday, October 2, 2019
+INSERT INTO dbo.Payer(
+                                Payer_Name,Payer_Sub_Group_Name,Payer_Type,Address1,Address2,City,State,Zip_Code,Phone,Fax,Email,Contact_Person_Name,
+                                Contact_Person_Designation,Mobile_Number,Website,Desk_Extn,Group_ID,Claim_Office_ID,
+                                Payer_Medigap_Number,Status,Others,Attach_Forms_Type,ModifiedBy,ModifiedByDate) VALUES
+                                (@Payer_Name,@Payer_Sub_Group_Name,@Payer_Type,@Address1,@Address2,@City,@State,@Zip_Code,@Phone,@Fax,@Email
+                                ,@Contact_Person_Name,@Contact_Person_Designation,@Mobile_Number,@Website,@Desk_Extn,@Group_Id,@Claim_Office_ID
+                                ,@Payer_Medigap_Number,@Status,@Others,@Attach_Forms_Type,@ModifiedBy,@ModifiedByDate)Passed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer EditPayer(int PayerId) method entry
+Wednesday, October 2, 2019
+SELECT * FROM dbo.Payer WHERE Payer_ID=@Payer_IDPassed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public int DeletePayer(int PayerId) method entry
+Wednesday, October 2, 2019
+DELETE FROM dbo.Payer WHERE Payer_ID=@Payer_IDPassed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Payer ViewAllPayer() method entry
+Wednesday, October 2, 2019
+ViewAllPayerPassed to database
+Wednesday, October 2, 2019
+ViewAllPayer procedure executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Company ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllCompanyPassed to database
+Wednesday, October 2, 2019
+ViewAllCompany procedure executed with out error
+Wednesday, October 2, 2019
+ public int DeleteEnterprise(int Company_ID) method entry
+Wednesday, October 2, 2019
+SELECT Enterprise_ID,Enterprise_Name  FROM dbo.Enterprise WHERE Enterprise_ID=@Enterprise_IDPassed to database
+
+Exception Log Entry : 09:50:24 PM Wednesday, October 2, 2019
+ Error :Must declare the scalar variable "@Enterprise_ID".
+ Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1051
+   at Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1079
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 721
+   at ASPTest.Common.AtomORM.ExecuteQueryResult[T](String Quary, DynamicParameters parm) in F:\Project\Atom Medical Credentialing\ASPTest\Common\AtomORM.cs:line 31
+   at ASPTest.BLL.CompanyBLL.EnterpriseList() in F:\Project\Atom Medical Credentialing\ASPTest\BLL\CompanyBLL.cs:line 157
+-------------------------------
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Company ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllCompanyPassed to database
+Wednesday, October 2, 2019
+ViewAllCompany procedure executed with out error
+Wednesday, October 2, 2019
+ public int DeleteEnterprise(int Company_ID) method entry
+Wednesday, October 2, 2019
+SELECT Enterprise_ID,Enterprise_Name  FROM dbo.Enterprise WHERE Enterprise_ID=@Enterprise_IDPassed to database
+
+Exception Log Entry : 10:02:44 PM Wednesday, October 2, 2019
+ Error :Must declare the scalar variable "@Enterprise_ID".
+ Stack Trace :   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1051
+   at Dapper.SqlMapper.<QueryImpl>d__140`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1079
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 721
+   at ASPTest.Common.AtomORM.ExecuteQueryResult[T](String Quary, DynamicParameters parm) in F:\Project\Atom Medical Credentialing\ASPTest\Common\AtomORM.cs:line 31
+   at ASPTest.BLL.CompanyBLL.EnterpriseList() in F:\Project\Atom Medical Credentialing\ASPTest\BLL\CompanyBLL.cs:line 158
+-------------------------------
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Company ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllCompanyPassed to database
+Wednesday, October 2, 2019
+ViewAllCompany procedure executed with out error
+Wednesday, October 2, 2019
+ public int DeleteEnterprise(int Company_ID) method entry
+Wednesday, October 2, 2019
+SELECT Enterprise_ID,Enterprise_Name  FROM dbo.Enterprise Passed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public int DeleteEnterprise(int Company_ID) method entry
+Wednesday, October 2, 2019
+SELECT Enterprise_ID,Enterprise_Name  FROM dbo.Enterprise Passed to database
+Wednesday, October 2, 2019
+SELECT Enterprise_ID,Enterprise_Name  FROM dbo.Enterprise Passed to database
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Company ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllCompanyPassed to database
+Wednesday, October 2, 2019
+ViewAllCompany procedure executed with out error
+Wednesday, October 2, 2019
+ public int DeleteEnterprise(int Company_ID) method entry
+Wednesday, October 2, 2019
+SELECT Enterprise_ID,Enterprise_Name  FROM dbo.Enterprise Passed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Company ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllCompanyPassed to database
+Wednesday, October 2, 2019
+ViewAllCompany procedure executed with out error
+Wednesday, October 2, 2019
+ public int DeleteEnterprise(int Company_ID) method entry
+Wednesday, October 2, 2019
+SELECT Enterprise_ID,Enterprise_Name  FROM dbo.Enterprise Passed to database
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Company ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllCompanyPassed to database
+Wednesday, October 2, 2019
+ViewAllCompany procedure executed with out error
+Wednesday, October 2, 2019
+ public int DeleteEnterprise(int Company_ID) method entry
+Wednesday, October 2, 2019
+SELECT Enterprise_ID,Enterprise_Name  FROM dbo.Enterprise Passed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Company ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllCompanyPassed to database
+Wednesday, October 2, 2019
+ViewAllCompany procedure executed with out error
+Wednesday, October 2, 2019
+ public int DeleteEnterprise(int Company_ID) method entry
+Wednesday, October 2, 2019
+SELECT Enterprise_ID AS Code,Enterprise_Name As Description  FROM dbo.Enterprise Passed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public int DeleteEnterprise(int Company_ID) method entry
+Wednesday, October 2, 2019
+SELECT Enterprise_ID AS Code,Enterprise_Name As Description  FROM dbo.Enterprise Passed to database
+Wednesday, October 2, 2019
+Query executed with out error
+Wednesday, October 2, 2019
+ public Ent_Login login(Ent_Login login) entry
+Wednesday, October 2, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+Wednesday, October 2, 2019
+Quary executed with out error
+Wednesday, October 2, 2019
+ public Ent_Company ViewAllEnterprise() method entry
+Wednesday, October 2, 2019
+ViewAllCompanyPassed to database
+Wednesday, October 2, 2019
+ViewAllCompany procedure executed with out error
+Wednesday, October 2, 2019
+ public int DeleteEnterprise(int Company_ID) method entry
+Wednesday, October 2, 2019
+SELECT Enterprise_ID AS Code,Enterprise_Name As Description  FROM dbo.Enterprise Passed to database
+Wednesday, October 2, 2019
+Query executed with out error

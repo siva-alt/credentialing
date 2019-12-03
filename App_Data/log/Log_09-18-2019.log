@@ -1,0 +1,42 @@
+06:45:58 PM Wednesday, September 18, 2019
+ public Ent_Login login(Ent_Login login) entry
+06:45:58 PM Wednesday, September 18, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+06:45:58 PM Wednesday, September 18, 2019
+Quary executed with out error
+07:19:05 PM Wednesday, September 18, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:19:05 PM Wednesday, September 18, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:19:05 PM Wednesday, September 18, 2019
+Quary executed with out error
+07:21:39 PM Wednesday, September 18, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:21:39 PM Wednesday, September 18, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:21:39 PM Wednesday, September 18, 2019
+Quary executed with out error
+07:27:44 PM Wednesday, September 18, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:27:44 PM Wednesday, September 18, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:27:44 PM Wednesday, September 18, 2019
+Quary executed with out error
+07:29:25 PM Wednesday, September 18, 2019
+ public Ent_Login login(Ent_Login login) entry
+07:29:25 PM Wednesday, September 18, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+07:29:25 PM Wednesday, September 18, 2019
+Quary executed with out error
+08:07:16 PM Wednesday, September 18, 2019
+ public Ent_Login login(Ent_Login login) entry
+08:07:16 PM Wednesday, September 18, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+08:07:17 PM Wednesday, September 18, 2019
+Quary executed with out error
+08:13:02 PM Wednesday, September 18, 2019
+ public Ent_Login login(Ent_Login login) entry
+08:13:02 PM Wednesday, September 18, 2019
+SELECt * FROM dbo.Login WHERE UserName=@UserName AND  Password=@PasswordPassed to database
+08:13:02 PM Wednesday, September 18, 2019
+Quary executed with out error
